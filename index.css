@@ -1,6 +1,6 @@
 :root {
   --pink: #ff52a2;
-  --bg: #0a0a0a;
+  --bg: #2e3840;
   --shadow: 0 2px 2px rgb(0, 0, 0/0.5);
 }
 html {
@@ -10,6 +10,7 @@ body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
   min-height: 4000px;
+  background-color: #f6f1f1;
 }
 .hero h1,
 .hero h4,
@@ -264,4 +265,8 @@ footer {
 }
 .make {
   font-size: 0.9rem;
+}
+.make a {
+  text-decoration: none;
+  color: white;
 }
